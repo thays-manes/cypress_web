@@ -1,12 +1,12 @@
 # Descrição
-Este repositório contém testes automatizados usando o Cypress para validar a funcionalidade de cadastro na MedCof Academy. Certifique-se de seguir as instruções de configuração e execução dos testes para garantir a qualidade do software.
+Este repositório contém testes automatizados usando o Cypress para validar a funcionalidade de cadastro em um site aleatório. Certifique-se de seguir as instruções de configuração e execução dos testes para garantir a qualidade do software.
 
 ## Como instalar e executar
 1. Clone o projeto
 2. Rode o comando `npm install` para instalar as dependencias
 3. Use npx cypress open para abrir a aplicação 
 4. Use o comando `npm run recordTestDashCypress ` para rodar em modo headlees e gerar as evidencias 
-4. Acesse o link https://cloud.cypress.io/projects/7wcc73 para visualizar as evidencias e o dashboard
+
 
 
 
@@ -36,5 +36,3 @@ O projeto de automação é organizado da seguinte forma:
 
 ### Validação do cadastro
 - `criaCadastro(palavraChave)`: Realizo o cadastro e verifico se a mensagem de confirmação esta com os dados que informei.
-
-
